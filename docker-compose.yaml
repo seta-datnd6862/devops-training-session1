@@ -20,7 +20,7 @@ services:
       - app-network
 
   app:
-    image: christiando/nodejs-devops-training:{tag}
+    image: setadatnd6862/devops-training:{tag}
     build:
       context: nodejs/.
       dockerfile: Dockerfile
